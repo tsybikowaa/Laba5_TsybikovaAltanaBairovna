@@ -28,7 +28,7 @@ namespace Laba5Podderzhka
 
         public void EnterPayeeSearchText(string searchText)
         {
-            //payeeSearchInput.Clear();
+            payeeSearchInput.Clear();
             payeeSearchInput.SendKeys(searchText);
         }
 
